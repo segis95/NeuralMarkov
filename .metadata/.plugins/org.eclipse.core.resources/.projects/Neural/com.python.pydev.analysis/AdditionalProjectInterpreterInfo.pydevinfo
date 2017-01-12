@@ -1,0 +1,19 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\Sergey\Desktop\Проект по базе\NeuralMarkov\NeuralMarkov\.metadata\.plugins\org.eclipse.core.resources\.projects\Neural\com.python.pydev.analysis\v2_indexcache
+new.__init__|1484171879259201000|C:\Users\Sergey\Desktop\Проект по базе\NeuralMarkov\NeuralMarkov\Neural\new\__init__.py
+new.neural|1484188950492680000|C:\Users\Sergey\Desktop\Проект по базе\NeuralMarkov\NeuralMarkov\Neural\new\neural.py
+-- END DISKCACHE
+-- START DICTIONARY
+1
+1=new.neural
+-- END DICTIONARY
+-- START TREE 1
+3
+a|0|
+sca|1|scaler!11@
+tra|3|Train_y!11@Train_x_scaled!11@Train_x!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

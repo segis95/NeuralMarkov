@@ -1,0 +1,11 @@
+import numpy as np
+from pyDOE import *
+import matplotlib.pyplot as plt
+
+a = lhs(2, 400, criterion='center')
+
+plt.plot(a[:,0], a[:,1],'o')
+plt.ylabel('some numbers')
+plt.show()
+print(1 + 1)
+

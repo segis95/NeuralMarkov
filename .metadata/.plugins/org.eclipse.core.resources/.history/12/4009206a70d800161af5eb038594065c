@@ -1,0 +1,22 @@
+import numpy as np
+from pyDOE import *
+import matplotlib.pyplot as plt
+from sklearn import preprocessing
+"""
+a = 2 * lhs(2, 400, criterion='maximin') - 1
+
+plt.plot(a[:,0], a[:,1],'o')
+plt.ylabel('some numbers')
+plt.show()
+"""
+
+#Generating the train set and scaling it
+#For function  (1 + sin(x))/2 
+
+Train_x = np.linspace(-np.pi, np.pi,100)
+Train_y = ( 1.0 + np.sin(Train_x))/2.0
+
+scaler = preprocessing.StandardScaler().fit(Train_x)
+Train_x_scaled = scaler.transform(Train_x)
+
+print(Train_x_scaled.variance())

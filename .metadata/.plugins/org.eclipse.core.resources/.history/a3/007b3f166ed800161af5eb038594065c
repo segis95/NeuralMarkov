@@ -1,0 +1,17 @@
+import numpy as np
+from pyDOE import *
+import matplotlib.pyplot as plt
+
+"""
+a = 2 * lhs(2, 400, criterion='maximin') - 1
+
+plt.plot(a[:,0], a[:,1],'o')
+plt.ylabel('some numbers')
+plt.show()
+"""
+
+#Generating the train set
+
+Train_x = np.linspace(-1,1,100)
+Train_y = ( 1.0 + np.sin(Train_x))/2.0
+print(Train_y)

@@ -1,0 +1,12 @@
+INSTUPnew.neural
+C:\Users\Sergey\Desktop\Проект по базе\NeuralMarkov\NeuralMarkov\Neural\new\neural.py
+INFOS:&&2|1|2|0&&2|3|2|0&&3|4|2|0&&3|5|2|0&&3|6|2|0&&3|7|2|0&&3|8|2|0&&3|9|2|0
+Train_x_scaled=8
+sigmoid=1
+scaler=7
+new.neural=2
+L=3
+Train_x=5
+M=9
+N=4
+Train_y=6

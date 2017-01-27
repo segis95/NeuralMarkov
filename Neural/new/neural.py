@@ -1,4 +1,3 @@
-
 import numpy as np
 from pyDOE import *
 import matplotlib.pyplot as plt
@@ -133,14 +132,8 @@ s = np.zeros(10)
 for i in range(N):
     predictions[i] = forecast(pd[i], Train_x_scaled[i])
     
-
 print("!!!")  
 plt.plot(Train_x_scaled, predictions,'o', Train_x_scaled, Train_y )
 plt.ylabel('some numbers')
 plt.show()
-
 """
-
-
-
-
